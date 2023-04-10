@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --secondary-color: #0e682f;
+}
+
+body {
+  height: 100vh;
+}
+body section {
+  margin: 2%;
+  font-size: 1.4em;
+}
+body header {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+body header ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+}
+body header ul li {
+  font-size: 1.2rem;
+}
+body header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+body .intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 0 5% 0;
+}
+body .intro .display-picture {
+  height: 350px;
+  background-image: url("../images/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body .intro .display-picture-text {
+  padding: 10% 0%;
+  font-size: 1.4em;
+  margin-right: 25%;
+}
+body .container {
+  padding: 10px;
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+  margin: 0 0 2% 0;
+  color: #fff;
+}
+body .container .card {
+  padding: 10px 0 0 0;
+  text-align: center;
+  background-image: url("../images/sq.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.8s;
+  flex: 1;
+  border-radius: 20px;
+}
+body .container .card:hover {
+  flex: 3;
+  cursor: pointer;
+}
+body .footer-section {
+  width: 100%;
+}
+body .footer-section .footer {
+  background: #000;
+  padding: 30px 0px;
+  font-family: sans-serif;
+  text-align: center;
+}
+body .footer-section .footer .icons-and-text {
+  display: flex;
+}
+body .footer-section .footer .icons-and-text .footer-logo {
+  padding: 0px 20px;
+}
+body .footer-section .footer .icons-and-text .footer-logo img {
+  width: 100px;
+}
+body .footer-section .footer .icons-and-text .icons {
+  width: 80%;
+}
+body .footer-section .footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 1% 0%;
+  color: gray;
+  font-size: 0.9em;
+}
+body .footer-section .footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+body .footer-section .footer .row a:hover {
+  color: #fff;
+}
+body .footer-section .footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+body .footer-section .footer .row ul {
+  width: 100%;
+}
+body .footer-section .footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}/*# sourceMappingURL=index.css.map */
